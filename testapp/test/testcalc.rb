@@ -1,3 +1,4 @@
+# version 2.0
 require 'test/unit'
 require 'src/calc'
 class TestAdd < Test::Unit::TestCase
