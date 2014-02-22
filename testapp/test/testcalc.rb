@@ -1,4 +1,4 @@
-# version 8.0
+# version 9.0
 require 'test/unit'
 require 'src/calc'
 class TestAdd < Test::Unit::TestCase
