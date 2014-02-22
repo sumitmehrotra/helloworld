@@ -1,4 +1,4 @@
-# version 5.0
+# version 6.0
 require 'test/unit'
 require 'src/calc'
 class TestAdd < Test::Unit::TestCase
