@@ -10,7 +10,8 @@ end
 puts "__FILE__ dirname" + File.dirname(__FILE__)
 =end
 require 'test/unit'
-require File.join File.dirname(__FILE__), '../src/calc'
+# require File.join File.dirname(__FILE__), '../src/calc'
+require_relative '../src/calc'
 class TestAdd < Test::Unit::TestCase
     def test_add
     	calc = Calc.new
